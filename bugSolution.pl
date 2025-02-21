@@ -1,0 +1,1 @@
+use strict; use warnings; use Data::Dumper; my %hash = (a => 1, b => 2, c => 3); print Dumper \%hash; foreach my $key (sort keys %hash) { print "$key => $hash{$key}\n"; }
