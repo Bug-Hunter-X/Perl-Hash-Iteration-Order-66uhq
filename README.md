@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in Perl related to hash iteration order.  The provided `bug.pl` script shows the problem where the output is not guaranteed to be in the order of key insertion.  The `bugSolution.pl` file provides a solution to address this issue, illustrating how to maintain or control the order if needed.
